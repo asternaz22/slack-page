@@ -1,0 +1,38 @@
+.tk-19{
+    display: flex;
+    justify-content:space-between; 
+}
+
+.side-page{
+    background-color: #3f0e40;
+    color: white;
+}
+
+.page{
+    display: flex;
+}
+
+.mainpage{
+    display: flex;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+.foot{
+    align-items: flex-end;
+}
+
+
+.mentor{
+    border-radius: 5px 5px;
+    border: solid;
+    padding: 1em 20em;
+    font-size: 1em;
+
+}
