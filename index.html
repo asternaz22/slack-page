@@ -3,8 +3,8 @@
 <head>
     <title>slack</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,39 +18,42 @@
                     <h2>tk-19
                         <i class="fas fa-angle-down"></i>
                         </i>
+                        <p>Aster naz</p>
                     </h2>
-
 
                     <i class="far fa-bell"></i>
                 </div>
-                <p>Aster naz</p>
 
-                <input type="search" value="jump to..">
+
+                <di id="jump-to" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                    <i class="fas fa-search-plus"></i>
+                    jump to..
+                </di>
 
                 <p>Thread</p>
 
                 <h3>Channels</h3>
 
                 <ul>
-                    <li>announcements</li>
-                    <li>attendence</li>
-                    <li>chat</li>
-                    <li>class-resources</li>
-                    <li>freecodecamp</li>
-                    <li>general</li>
-                    <li>life skills</li>
-                    <li>mentor-meetups</li>
-                    <li>student-showcase</li>
-                    <li>tk-girls</li>
-                    <li>web-dev</li>
+                    <li># announcements</li>
+                    <li># attendence</li>
+                    <li># chat</li>
+                    <li># class-resources</li>
+                    <li># freecodecamp</li>
+                    <li># general</li>
+                    <li># life skills</li>
+                    <li># mentor-meetups</li>
+                    <li># student-showcase</li>
+                    <li># tk-girls</li>
+                    <li># web-dev</li>
                 </ul>
 
                 <h3>Direct messages</h3>
 
                 <ul>
-                    <li>slackbot</li>
-                    <li>Tuba mohsin</li>
-                    <li>Aster (you)</l>
+                    <li># slackbot</li>
+                    <li># Tuba mohsin</li>
+                    <li># Aster (you)</l>
                 </ul>
 
 
@@ -58,8 +61,8 @@
 
 
                 <ul>
-                    <li>connect google drive</li>
-                    <li>add app</li>
+                    <li># connect google drive</li>
+                    <li># add app</li>
                 </ul>
 
             </div>
@@ -73,51 +76,56 @@
 
                 <div class="main-page">
 
-                    <div>
-                        <h1>mentor-meetups</h1>
-                    </div>
-
-                    <header class="header">
+                    <div class="top">
 
                         <div>
-
-                            <i class="far fa-star"></i>
-
-
-                            <i class="far fa-user"></i> 116
-
-
-                            <i class="fas fa-thumbtack"></i> 0
-
-
-                            <i class="fas fa-pencil-alt"></i> add a topic
+                            <button class="channel">#mentor-meetups</button>
 
                         </div>
 
+                        <header class="header">
+
+                            <div class="style">
+
+                                <i class="far fa-star"></i>
 
 
-                        <div>
-                            <i class="fas fa-phone"></i>
-
-                            <i class="fas fa-cog"></i>
-                        </div>
+                                <i class="far fa-user"></i> 116
 
 
+                                <i class="fas fa-thumbtack"></i> 0
 
 
-                        <div>
-                            <i class="fas fa-search"></i> 
+                                <i class="fas fa-pencil-alt"></i> add a topic
+
+                            </div>
+
+
+
+                            
+                                <i class="fas fa-phone"></i>
+
+                                <i class="fas fa-cog"></i>
+                            
+
+
+
+
+                            <div>
+                                <i class="fas fa-search"></i>
                                 <input type="search" value="search">
-                            </i>
+                                </i>
 
 
-                            <i class="fas fa-at"></i>
+                                <i class="fas fa-at"></i>
 
-                            <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
 
-                            <i class="fas fa-bars"></i>
+                                <i class="fas fa-bars"></i>
 
-                        </div>
+                            </div>
+
+                    </div>
 
 
 
@@ -130,6 +138,13 @@
                 <div>
 
                     <main>
+                        <div>
+                                There’s more to the conversation in #mentor-meetups
+
+                                <p>To see and search this channel’s full history, upgrade to one of our paid plans.</p>
+
+                                <button id="more-btn">Learn more</button>
+                        </div>
 
                     </main>
 
